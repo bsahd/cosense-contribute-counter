@@ -1,0 +1,5 @@
+{
+  "name": "@bsahd/cosense-contribute-counter",
+  "version": "0.1.0",
+  "exports": "./mod.ts"
+}
