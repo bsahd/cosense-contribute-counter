@@ -1,6 +1,6 @@
-import * as cosense from "jsr:@cosense/std@0.29.9";
+import * as cosense from "jsr:@cosense/std@0.29";
 export type Contributes = { name: string; id: string; contributes: number }[];
-import ProgressBar from "jsr:@deno-library/progress";
+import ProgressBar from "jsr:@deno-library/progress@1";
 /** n秒待つ関数 (await忘れずに) */
 function sleep(ms: number) {
 	return new Promise((res) => {
@@ -8,7 +8,7 @@ function sleep(ms: number) {
 	});
 }
 
-export async function countProject(projectName: string) {
+export async function countProject(projectName: string):Contributes{
 	console.log("loading page list");
 	const titleList: string[] = [];
 	const pagecountlist = await cosense.listPages(projectName, { limit: 1 });
