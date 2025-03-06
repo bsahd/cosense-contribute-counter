@@ -8,7 +8,7 @@ function sleep(ms: number) {
 	});
 }
 
-export async function countProject(projectName: string):Contributes{
+export async function countProject(projectName: string):Promise<Contributes>{
 	console.log("loading page list");
 	const titleList: string[] = [];
 	const pagecountlist = await cosense.listPages(projectName, { limit: 1 });
