@@ -1,0 +1,128 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@core/unknownutil@4": "4.3.0",
+    "jsr:@cosense/std@0.29.9": "0.29.9",
+    "jsr:@cosense/types@~0.10.7": "0.10.7",
+    "jsr:@deno-library/progress@*": "1.5.1",
+    "jsr:@denosaurs/tty@~0.2.1": "0.2.1",
+    "jsr:@denosaurs/wait@*": "0.2.2",
+    "jsr:@progfay/scrapbox-parser@9": "9.2.0",
+    "jsr:@std/async@1": "1.0.11",
+    "jsr:@std/encoding@1": "1.0.7",
+    "jsr:@std/fmt@1": "1.0.3",
+    "jsr:@std/fmt@1.0.3": "1.0.3",
+    "jsr:@std/io@0.225.0": "0.225.0",
+    "jsr:@takker/md5@0.1": "0.1.0",
+    "npm:option-t@51": "51.1.1",
+    "npm:socket.io-client@^4.7.5": "4.8.1"
+  },
+  "jsr": {
+    "@core/unknownutil@4.3.0": {
+      "integrity": "538a3687ffa81028e91d148818047df219663d0da671d906cecd165581ae55cc"
+    },
+    "@cosense/std@0.29.9": {
+      "integrity": "52ca573501d1004b2c31c422e61e728aa6cc9706c0d301790f9738240f0212b0",
+      "dependencies": [
+        "jsr:@core/unknownutil",
+        "jsr:@cosense/types",
+        "jsr:@progfay/scrapbox-parser",
+        "jsr:@std/async",
+        "jsr:@std/encoding",
+        "jsr:@takker/md5",
+        "npm:option-t",
+        "npm:socket.io-client"
+      ]
+    },
+    "@cosense/types@0.10.7": {
+      "integrity": "ce62b4cc7dc599f0f55abc5f4b88d6fe3f5aa7fbacdc46cc1ff32a62fea60176"
+    },
+    "@deno-library/progress@1.5.1": {
+      "integrity": "966611826b8bb27baae73ab1c4fa4317cd4edd2abb99750cd6f8488d22d5b121",
+      "dependencies": [
+        "jsr:@std/fmt@1.0.3",
+        "jsr:@std/io"
+      ]
+    },
+    "@denosaurs/tty@0.2.1": {
+      "integrity": "f1fc651cc9021c90bf230a45c6eb893c26a54fae6a855e9cd26aad0083d772dd"
+    },
+    "@denosaurs/wait@0.2.2": {
+      "integrity": "5ec0a7e72c57a96c9fdb2f4a52e2ce3b1ad010acc59fefe6f88054a9e27bc33d",
+      "dependencies": [
+        "jsr:@denosaurs/tty",
+        "jsr:@std/fmt@1"
+      ]
+    },
+    "@progfay/scrapbox-parser@9.2.0": {
+      "integrity": "82ebb95e72dd0ea44547fd48e2bcb479fd2275fc26c4515598f742e5aaf6e0e5"
+    },
+    "@std/async@1.0.11": {
+      "integrity": "eee0d3405275506638a9c8efaa849cf0d35873120c69b7caa1309c9a9e5b6f85"
+    },
+    "@std/encoding@1.0.7": {
+      "integrity": "f631247c1698fef289f2de9e2a33d571e46133b38d042905e3eac3715030a82d"
+    },
+    "@std/fmt@1.0.3": {
+      "integrity": "97765c16aa32245ff4e2204ecf7d8562496a3cb8592340a80e7e554e0bb9149f"
+    },
+    "@std/io@0.225.0": {
+      "integrity": "c1db7c5e5a231629b32d64b9a53139445b2ca640d828c26bf23e1c55f8c079b3"
+    },
+    "@takker/md5@0.1.0": {
+      "integrity": "4c423d8247aadf7bcb1eb83c727bf28c05c21906e916517395d00aa157b6eae0"
+    }
+  },
+  "npm": {
+    "@socket.io/component-emitter@3.1.2": {
+      "integrity": "sha512-9BCxFwvbGg/RsZK9tjXd8s4UcwR0MWeFQ1XEKIQVVvAGJyINdrqKMcTRyLoK8Rse1GjzLV9cwjWV1olXRWEXVA=="
+    },
+    "debug@4.3.7": {
+      "integrity": "sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==",
+      "dependencies": [
+        "ms"
+      ]
+    },
+    "engine.io-client@6.6.3": {
+      "integrity": "sha512-T0iLjnyNWahNyv/lcjS2y4oE358tVS/SYQNxYXGAJ9/GLgH4VCvOQ/mhTjqU88mLZCQgiG8RIegFHYCdVC+j5w==",
+      "dependencies": [
+        "@socket.io/component-emitter",
+        "debug",
+        "engine.io-parser",
+        "ws",
+        "xmlhttprequest-ssl"
+      ]
+    },
+    "engine.io-parser@5.2.3": {
+      "integrity": "sha512-HqD3yTBfnBxIrbnM1DoD6Pcq8NECnh8d4As1Qgh0z5Gg3jRRIqijury0CL3ghu/edArpUYiYqQiDUQBIs4np3Q=="
+    },
+    "ms@2.1.3": {
+      "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="
+    },
+    "option-t@51.1.1": {
+      "integrity": "sha512-Ww13j9NVqnGpxsaSr1y0o35Xq1WcopAeJkAbk9DWlKRBgFKYLuJwEU1GzWUtkhBhRQY0st5kfdtT02JO6YqEEw=="
+    },
+    "socket.io-client@4.8.1": {
+      "integrity": "sha512-hJVXfu3E28NmzGk8o1sHhN3om52tRvwYeidbj7xKy2eIIse5IoKX3USlS6Tqt3BHAtflLIkCQBkzVrEEfWUyYQ==",
+      "dependencies": [
+        "@socket.io/component-emitter",
+        "debug",
+        "engine.io-client",
+        "socket.io-parser"
+      ]
+    },
+    "socket.io-parser@4.2.4": {
+      "integrity": "sha512-/GbIKmo8ioc+NIWIhwdecY0ge+qVBSMdgxGygevmdHj24bsfgtCmcUUcQ5ZzcylGFHsN3k4HB4Cgkl96KVnuew==",
+      "dependencies": [
+        "@socket.io/component-emitter",
+        "debug"
+      ]
+    },
+    "ws@8.17.1": {
+      "integrity": "sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ=="
+    },
+    "xmlhttprequest-ssl@2.1.2": {
+      "integrity": "sha512-TEU+nJVUUnA4CYJFLvK5X9AOeH4KvDvhIfm0vV1GaQRtchnG0hgK5p8hw/xjv8cunWYCsiPCSDzObPyhEwq3KQ=="
+    }
+  }
+}
